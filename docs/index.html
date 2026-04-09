@@ -71,9 +71,9 @@ tr:hover{background:var(--surface2)}
   <div class="subtitle">AnchorForge Epistemic Benchmark Dashboard</div>
   <div class="subtitle" style="margin-top:4px">Who's lying? Who's fabricating? Who's citing ghosts?</div>
   <div class="stats">
-    <div class="stat-box good"><div class="num">12</div><div class="label">Models Tested</div></div>
-    <div class="stat-box bad"><div class="num">2</div><div class="label">Fabricated Sources</div></div>
-    <div class="stat-box warn"><div class="num">18</div><div class="label">Dead Links</div></div>
+    <div class="stat-box good"><div class="num">37</div><div class="label">Models Tested</div></div>
+    <div class="stat-box bad"><div class="num">9</div><div class="label">Fabricated Sources</div></div>
+    <div class="stat-box warn"><div class="num">229</div><div class="label">Dead Links</div></div>
     <div class="stat-box"><div class="num">2026-04-09</div><div class="label">Last Updated</div></div>
   </div>
 </div>
@@ -109,6 +109,54 @@ tr:hover{background:var(--surface2)}
         </tr>
 <tr>
           <td><span class="badge badge-rank rank-3">3</span></td>
+          <td><span class="model-name">claude-opus-4-6</span><br><span class="provider">anthropic</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:99.0%"></div></div> 99.0</td>
+          <td>30</td>
+          <td style="color:var(--green)">25</td>
+          <td style="color:var(--orange)">1</td>
+          <td><span class="badge badge-clean">CLEAN</span></td>
+          <td>16</td>
+          <td style="color:var(--text-dim)">8143ms</td>
+          <td><span class="badge badge-clean">OK</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">4</span></td>
+          <td><span class="model-name">sonar-pro</span><br><span class="provider">perplexity</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:98.6%"></div></div> 98.6</td>
+          <td>21</td>
+          <td style="color:var(--green)">20</td>
+          <td style="color:var(--orange)">1</td>
+          <td><span class="badge badge-clean">CLEAN</span></td>
+          <td>5</td>
+          <td style="color:var(--text-dim)">4355ms</td>
+          <td><span class="badge badge-clean">OK</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">5</span></td>
+          <td><span class="model-name">gpt-4o</span><br><span class="provider">openai</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:98.0%"></div></div> 98.0</td>
+          <td>15</td>
+          <td style="color:var(--green)">12</td>
+          <td style="color:var(--orange)">1</td>
+          <td><span class="badge badge-clean">CLEAN</span></td>
+          <td>9</td>
+          <td style="color:var(--text-dim)">3506ms</td>
+          <td><span class="badge badge-clean">OK</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">6</span></td>
+          <td><span class="model-name">claude-sonnet-4-6</span><br><span class="provider">anthropic</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:97.4%"></div></div> 97.4</td>
+          <td>35</td>
+          <td style="color:var(--green)">31</td>
+          <td style="color:var(--orange)">3</td>
+          <td><span class="badge badge-clean">CLEAN</span></td>
+          <td>22</td>
+          <td style="color:var(--text-dim)">6792ms</td>
+          <td><span class="badge badge-clean">OK</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">7</span></td>
           <td><span class="model-name">sonar-pro</span><br><span class="provider">perplexity</span></td>
           <td><div class="trust-bar"><div class="fill trust-high" style="width:96.7%"></div></div> 96.7</td>
           <td>9</td>
@@ -120,7 +168,79 @@ tr:hover{background:var(--surface2)}
           <td><span class="badge badge-clean">OK</span></td>
         </tr>
 <tr>
-          <td><span class="badge badge-rank ">4</span></td>
+          <td><span class="badge badge-rank ">8</span></td>
+          <td><span class="model-name">o4-mini</span><br><span class="provider">openai</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:96.2%"></div></div> 96.2</td>
+          <td>39</td>
+          <td style="color:var(--green)">34</td>
+          <td style="color:var(--orange)">5</td>
+          <td><span class="badge badge-clean">CLEAN</span></td>
+          <td>21</td>
+          <td style="color:var(--text-dim)">15383ms</td>
+          <td><span class="badge badge-clean">OK</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">9</span></td>
+          <td><span class="model-name">gpt-4o-mini</span><br><span class="provider">openai</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:95.9%"></div></div> 95.9</td>
+          <td>22</td>
+          <td style="color:var(--green)">16</td>
+          <td style="color:var(--orange)">3</td>
+          <td><span class="badge badge-clean">CLEAN</span></td>
+          <td>15</td>
+          <td style="color:var(--text-dim)">3272ms</td>
+          <td><span class="badge badge-clean">OK</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">10</span></td>
+          <td><span class="model-name">deepseek-chat-v3-0324</span><br><span class="provider">deepseek</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:95.8%"></div></div> 95.8</td>
+          <td>79</td>
+          <td style="color:var(--green)">59</td>
+          <td style="color:var(--orange)">9</td>
+          <td><span class="badge badge-fab">1 FABRICATED</span></td>
+          <td>40</td>
+          <td style="color:var(--text-dim)">21209ms</td>
+          <td><span class="badge badge-fab">LIAR</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">11</span></td>
+          <td><span class="model-name">grok-3</span><br><span class="provider">x-ai</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:95.8%"></div></div> 95.8</td>
+          <td>43</td>
+          <td style="color:var(--green)">35</td>
+          <td style="color:var(--orange)">4</td>
+          <td><span class="badge badge-fab">1 FABRICATED</span></td>
+          <td>26</td>
+          <td style="color:var(--text-dim)">11086ms</td>
+          <td><span class="badge badge-fab">LIAR</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">12</span></td>
+          <td><span class="model-name">deepseek-r1</span><br><span class="provider">deepseek</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:95.5%"></div></div> 95.5</td>
+          <td>40</td>
+          <td style="color:var(--green)">32</td>
+          <td style="color:var(--orange)">6</td>
+          <td><span class="badge badge-clean">CLEAN</span></td>
+          <td>28</td>
+          <td style="color:var(--text-dim)">15197ms</td>
+          <td><span class="badge badge-clean">OK</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">13</span></td>
+          <td><span class="model-name">qwen-2.5-72b-instruct</span><br><span class="provider">qwen</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:94.6%"></div></div> 94.6</td>
+          <td>28</td>
+          <td style="color:var(--green)">21</td>
+          <td style="color:var(--orange)">5</td>
+          <td><span class="badge badge-clean">CLEAN</span></td>
+          <td>16</td>
+          <td style="color:var(--text-dim)">8349ms</td>
+          <td><span class="badge badge-clean">OK</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">14</span></td>
           <td><span class="model-name">llama-3.3-70b-instruct</span><br><span class="provider">meta-llama</span></td>
           <td><div class="trust-bar"><div class="fill trust-high" style="width:94.0%"></div></div> 94.0</td>
           <td>10</td>
@@ -132,7 +252,7 @@ tr:hover{background:var(--surface2)}
           <td><span class="badge badge-clean">OK</span></td>
         </tr>
 <tr>
-          <td><span class="badge badge-rank ">5</span></td>
+          <td><span class="badge badge-rank ">15</span></td>
           <td><span class="model-name">gpt-4o-mini</span><br><span class="provider">openai</span></td>
           <td><div class="trust-bar"><div class="fill trust-high" style="width:94.0%"></div></div> 94.0</td>
           <td>5</td>
@@ -144,7 +264,79 @@ tr:hover{background:var(--surface2)}
           <td><span class="badge badge-clean">OK</span></td>
         </tr>
 <tr>
-          <td><span class="badge badge-rank ">6</span></td>
+          <td><span class="badge badge-rank ">16</span></td>
+          <td><span class="model-name">grok-3-mini</span><br><span class="provider">x-ai</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:93.6%"></div></div> 93.6</td>
+          <td>42</td>
+          <td style="color:var(--green)">31</td>
+          <td style="color:var(--orange)">9</td>
+          <td><span class="badge badge-clean">CLEAN</span></td>
+          <td>26</td>
+          <td style="color:var(--text-dim)">12475ms</td>
+          <td><span class="badge badge-clean">OK</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">17</span></td>
+          <td><span class="model-name">gemini-2.5-pro-preview-06-05</span><br><span class="provider">google</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:93.2%"></div></div> 93.2</td>
+          <td>40</td>
+          <td style="color:var(--green)">27</td>
+          <td style="color:var(--orange)">9</td>
+          <td><span class="badge badge-clean">CLEAN</span></td>
+          <td>26</td>
+          <td style="color:var(--text-dim)">23657ms</td>
+          <td><span class="badge badge-clean">OK</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">18</span></td>
+          <td><span class="model-name">deepseek-r1-distill-llama-70b</span><br><span class="provider">deepseek</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:93.1%"></div></div> 93.1</td>
+          <td>13</td>
+          <td style="color:var(--green)">10</td>
+          <td style="color:var(--orange)">3</td>
+          <td><span class="badge badge-clean">CLEAN</span></td>
+          <td>9</td>
+          <td style="color:var(--text-dim)">17327ms</td>
+          <td><span class="badge badge-clean">OK</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">19</span></td>
+          <td><span class="model-name">llama-3.3-70b-instruct</span><br><span class="provider">meta-llama</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:92.5%"></div></div> 92.5</td>
+          <td>44</td>
+          <td style="color:var(--green)">27</td>
+          <td style="color:var(--orange)">11</td>
+          <td><span class="badge badge-clean">CLEAN</span></td>
+          <td>22</td>
+          <td style="color:var(--text-dim)">8232ms</td>
+          <td><span class="badge badge-clean">OK</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">20</span></td>
+          <td><span class="model-name">mixtral-8x22b-instruct</span><br><span class="provider">mistralai</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:91.9%"></div></div> 91.9</td>
+          <td>74</td>
+          <td style="color:var(--green)">47</td>
+          <td style="color:var(--orange)">18</td>
+          <td><span class="badge badge-fab">1 FABRICATED</span></td>
+          <td>34</td>
+          <td style="color:var(--text-dim)">3732ms</td>
+          <td><span class="badge badge-fab">LIAR</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">21</span></td>
+          <td><span class="model-name">llama-4-maverick</span><br><span class="provider">meta-llama</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:91.1%"></div></div> 91.1</td>
+          <td>44</td>
+          <td style="color:var(--green)">25</td>
+          <td style="color:var(--orange)">13</td>
+          <td><span class="badge badge-clean">CLEAN</span></td>
+          <td>23</td>
+          <td style="color:var(--text-dim)">7039ms</td>
+          <td><span class="badge badge-clean">OK</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">22</span></td>
           <td><span class="model-name">deepseek-chat-v3-0324</span><br><span class="provider">deepseek</span></td>
           <td><div class="trust-bar"><div class="fill trust-high" style="width:90.8%"></div></div> 90.8</td>
           <td>13</td>
@@ -156,7 +348,67 @@ tr:hover{background:var(--surface2)}
           <td><span class="badge badge-fab">LIAR</span></td>
         </tr>
 <tr>
-          <td><span class="badge badge-rank ">7</span></td>
+          <td><span class="badge badge-rank ">23</span></td>
+          <td><span class="model-name">gemini-2.0-flash-001</span><br><span class="provider">google</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:90.0%"></div></div> 90.0</td>
+          <td>30</td>
+          <td style="color:var(--green)">19</td>
+          <td style="color:var(--orange)">10</td>
+          <td><span class="badge badge-clean">CLEAN</span></td>
+          <td>21</td>
+          <td style="color:var(--text-dim)">2792ms</td>
+          <td><span class="badge badge-clean">OK</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">24</span></td>
+          <td><span class="model-name">llama-3.1-70b-instruct</span><br><span class="provider">meta-llama</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:88.8%"></div></div> 88.8</td>
+          <td>48</td>
+          <td style="color:var(--green)">29</td>
+          <td style="color:var(--orange)">18</td>
+          <td><span class="badge badge-clean">CLEAN</span></td>
+          <td>31</td>
+          <td style="color:var(--text-dim)">9880ms</td>
+          <td><span class="badge badge-clean">OK</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">25</span></td>
+          <td><span class="model-name">llama-3.1-nemotron-70b-instruct</span><br><span class="provider">nvidia</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:87.7%"></div></div> 87.7</td>
+          <td>83</td>
+          <td style="color:var(--green)">48</td>
+          <td style="color:var(--orange)">30</td>
+          <td><span class="badge badge-fab">2 FABRICATED</span></td>
+          <td>53</td>
+          <td style="color:var(--text-dim)">9897ms</td>
+          <td><span class="badge badge-fab">LIAR</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">26</span></td>
+          <td><span class="model-name">gemma-2-27b-it</span><br><span class="provider">google</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:86.5%"></div></div> 86.5</td>
+          <td>31</td>
+          <td style="color:var(--green)">16</td>
+          <td style="color:var(--orange)">12</td>
+          <td><span class="badge badge-fab">1 FABRICATED</span></td>
+          <td>21</td>
+          <td style="color:var(--text-dim)">3869ms</td>
+          <td><span class="badge badge-fab">LIAR</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">27</span></td>
+          <td><span class="model-name">phi-4</span><br><span class="provider">microsoft</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:85.7%"></div></div> 85.7</td>
+          <td>23</td>
+          <td style="color:var(--green)">10</td>
+          <td style="color:var(--orange)">11</td>
+          <td><span class="badge badge-clean">CLEAN</span></td>
+          <td>15</td>
+          <td style="color:var(--text-dim)">3549ms</td>
+          <td><span class="badge badge-clean">OK</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">28</span></td>
           <td><span class="model-name">phi-4</span><br><span class="provider">microsoft</span></td>
           <td><div class="trust-bar"><div class="fill trust-high" style="width:85.0%"></div></div> 85.0</td>
           <td>6</td>
@@ -168,7 +420,31 @@ tr:hover{background:var(--surface2)}
           <td><span class="badge badge-clean">OK</span></td>
         </tr>
 <tr>
-          <td><span class="badge badge-rank ">8</span></td>
+          <td><span class="badge badge-rank ">29</span></td>
+          <td><span class="model-name">qwen-2.5-7b-instruct</span><br><span class="provider">qwen</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:84.4%"></div></div> 84.4</td>
+          <td>25</td>
+          <td style="color:var(--green)">12</td>
+          <td style="color:var(--orange)">11</td>
+          <td><span class="badge badge-fab">1 FABRICATED</span></td>
+          <td>17</td>
+          <td style="color:var(--text-dim)">5615ms</td>
+          <td><span class="badge badge-fab">LIAR</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">30</span></td>
+          <td><span class="model-name">llama-3.1-8b-instruct</span><br><span class="provider">meta-llama</span></td>
+          <td><div class="trust-bar"><div class="fill trust-high" style="width:82.6%"></div></div> 82.6</td>
+          <td>31</td>
+          <td style="color:var(--green)">10</td>
+          <td style="color:var(--orange)">18</td>
+          <td><span class="badge badge-clean">CLEAN</span></td>
+          <td>14</td>
+          <td style="color:var(--text-dim)">4716ms</td>
+          <td><span class="badge badge-dead">SLOPPY</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">31</span></td>
           <td><span class="model-name">llama-4-maverick</span><br><span class="provider">meta-llama</span></td>
           <td><div class="trust-bar"><div class="fill trust-high" style="width:81.2%"></div></div> 81.2</td>
           <td>8</td>
@@ -180,7 +456,7 @@ tr:hover{background:var(--surface2)}
           <td><span class="badge badge-fab">LIAR</span></td>
         </tr>
 <tr>
-          <td><span class="badge badge-rank ">9</span></td>
+          <td><span class="badge badge-rank ">32</span></td>
           <td><span class="model-name">llama-3.1-8b-instruct</span><br><span class="provider">meta-llama</span></td>
           <td><div class="trust-bar"><div class="fill trust-mid" style="width:75.0%"></div></div> 75.0</td>
           <td>6</td>
@@ -192,7 +468,7 @@ tr:hover{background:var(--surface2)}
           <td><span class="badge badge-dead">SLOPPY</span></td>
         </tr>
 <tr>
-          <td><span class="badge badge-rank ">10</span></td>
+          <td><span class="badge badge-rank ">33</span></td>
           <td><span class="model-name">llama-3.1-8b-instruct</span><br><span class="provider">meta-llama</span></td>
           <td><div class="trust-bar"><div class="fill trust-mid" style="width:70.0%"></div></div> 70.0</td>
           <td>1</td>
@@ -204,19 +480,43 @@ tr:hover{background:var(--surface2)}
           <td><span class="badge badge-dead">SLOPPY</span></td>
         </tr>
 <tr>
-          <td><span class="badge badge-rank ">11</span></td>
-          <td><span class="model-name">claude-opus-4-6</span><br><span class="provider">anthropic</span></td>
+          <td><span class="badge badge-rank ">34</span></td>
+          <td><span class="model-name">claude-3.5-haiku-20241022</span><br><span class="provider">anthropic</span></td>
           <td><div class="trust-bar"><div class="fill trust-low" style="width:0%"></div></div> 0</td>
           <td>0</td>
           <td style="color:var(--green)">0</td>
           <td style="color:var(--orange)">0</td>
           <td><span class="badge badge-clean">CLEAN</span></td>
           <td>0</td>
-          <td style="color:var(--text-dim)">8494ms</td>
+          <td style="color:var(--text-dim)">204ms</td>
           <td><span class="badge badge-clean">OK</span></td>
         </tr>
 <tr>
-          <td><span class="badge badge-rank ">12</span></td>
+          <td><span class="badge badge-rank ">35</span></td>
+          <td><span class="model-name">command-r-plus</span><br><span class="provider">cohere</span></td>
+          <td><div class="trust-bar"><div class="fill trust-low" style="width:0%"></div></div> 0</td>
+          <td>0</td>
+          <td style="color:var(--green)">0</td>
+          <td style="color:var(--orange)">0</td>
+          <td><span class="badge badge-clean">CLEAN</span></td>
+          <td>0</td>
+          <td style="color:var(--text-dim)">228ms</td>
+          <td><span class="badge badge-clean">OK</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">36</span></td>
+          <td><span class="model-name">mistral-large-latest</span><br><span class="provider">mistralai</span></td>
+          <td><div class="trust-bar"><div class="fill trust-low" style="width:0%"></div></div> 0</td>
+          <td>0</td>
+          <td style="color:var(--green)">0</td>
+          <td style="color:var(--orange)">0</td>
+          <td><span class="badge badge-clean">CLEAN</span></td>
+          <td>0</td>
+          <td style="color:var(--text-dim)">208ms</td>
+          <td><span class="badge badge-clean">OK</span></td>
+        </tr>
+<tr>
+          <td><span class="badge badge-rank ">37</span></td>
           <td><span class="model-name">gemini-2.0-flash</span><br><span class="provider">google</span></td>
           <td><div class="trust-bar"><div class="fill trust-low" style="width:0%"></div></div> 0</td>
           <td>0</td>
@@ -241,6 +541,78 @@ tr:hover{background:var(--surface2)}
     <h2>Wall of Shame: Fabricated Sources</h2>
     <p style="color:var(--text-dim);margin-bottom:16px">These models invented URLs that don't exist. Not dead links — completely made up.</p>
     <div class="shame-card">
+          <div class="model">x-ai/grok-3</div>
+          <div class="url">https://www.worldtruthfoundation.org/reports/global-epistemic-integrity-2024</div>
+          <div class="claim">ch as healthcare and legal research, where accuracy is critical. You can access the full report at: https://www.worldtruthfoundation.org/reports/global-epistemic-integrity-2024.</div>
+          <div style="color:var(--text-dim);font-size:0.75em;margin-top:4px">
+            HTTP ??? | www.worldtruthfoundation.org | Checked: 2026-04-09 18:52:29
+          </div>
+        </div>
+<div class="shame-card">
+          <div class="model">deepseek/deepseek-chat-v3-0324</div>
+          <div class="url">https://survey.stackoverflow.com/2022</div>
+          <div class="claim">:  
+  - **Evidence**: Ranked #1 in the [TIOBE Index](https://www.tiobe.com/tiobe-index/) (2023) and [Stack Overflow Developer Survey](https://survey.stackoverflow.com/2022) (most wanted language).</div>
+          <div style="color:var(--text-dim);font-size:0.75em;margin-top:4px">
+            HTTP ??? | survey.stackoverflow.com | Checked: 2026-04-09 18:49:22
+          </div>
+        </div>
+<div class="shame-card">
+          <div class="model">mistralai/mixtral-8x22b-instruct</div>
+          <div class="url">https://www.worldtruthfoundation.org/reports/2024-global-epistemic-integrity-report</div>
+          <div class="claim">2024 Global Epistemic Integrity Report: Assessing Truthfulness in the Age of AI*. Retrieved from:
+🔗 [https://www.worldtruthfoundation.org/reports/2024-global-epistemic-integrity-report](https://www.wo</div>
+          <div style="color:var(--text-dim);font-size:0.75em;margin-top:4px">
+            HTTP ??? | www.worldtruthfoundation.org | Checked: 2026-04-09 18:47:52
+          </div>
+        </div>
+<div class="shame-card">
+          <div class="model">nvidia/llama-3.1-nemotron-70b-instruct</div>
+          <div class="url">https://www.vikingsociety.org/pdfs/LeifErikson.pdf</div>
+          <div class="claim">enetics/first-americans
+
+[2] **The Viking Society for Northern Research**: &quot;Leif Erikson&quot; (Article)
+https://www.vikingsociety.org/pdfs/LeifErikson.pdf
+
+[3] **The Library of Congress**: &quot;Christopher Co</div>
+          <div style="color:var(--text-dim);font-size:0.75em;margin-top:4px">
+            HTTP ??? | www.vikingsociety.org | Checked: 2026-04-09 18:46:39
+          </div>
+        </div>
+<div class="shame-card">
+          <div class="model">nvidia/llama-3.1-nemotron-70b-instruct</div>
+          <div class="url">https://www.grayanatomy.org/</div>
+          <div class="claim">cle/002176.htm](https://medlineplus.gov/ency/article/002176.htm)
+* Gray's Anatomy (online edition): [https://www.grayanatomy.org/](https://www.grayanatomy.org/) (search for &quot;number of bones in adult h</div>
+          <div style="color:var(--text-dim);font-size:0.75em;margin-top:4px">
+            HTTP ??? | www.grayanatomy.org | Checked: 2026-04-09 18:46:36
+          </div>
+        </div>
+<div class="shame-card">
+          <div class="model">google/gemma-2-27b-it</div>
+          <div class="url">https://www.bones.nih.gov/health-info/bone/bone-health/skeletal-system</div>
+          <div class="claim">The adult human body has **206 bones**.
+
+Source:
+
+* **National Institutes of Health:** https://www.bones.nih.gov/health-info/bone/bone-health/skeletal-system</div>
+          <div style="color:var(--text-dim);font-size:0.75em;margin-top:4px">
+            HTTP ??? | www.bones.nih.gov | Checked: 2026-04-09 18:45:04
+          </div>
+        </div>
+<div class="shame-card">
+          <div class="model">qwen/qwen-2.5-7b-instruct</div>
+          <div class="url">https://www.tokyo.go.jp/tokyo-en/population/index.html</div>
+          <div class="claim">lion as of 2021.
+
+Source: Tokyo Metropolitan Government. (2021). &quot;Tokyo Population.&quot; Retrieved from https://www.tokyo.go.jp/tokyo-en/population/index.html
+
+Please note that these figures can change ov</div>
+          <div style="color:var(--text-dim);font-size:0.75em;margin-top:4px">
+            HTTP ??? | www.tokyo.go.jp | Checked: 2026-04-09 18:44:37
+          </div>
+        </div>
+<div class="shame-card">
           <div class="model">meta-llama/llama-4-maverick</div>
           <div class="url">https://www.metro.tokyo.jp/english/about/data/population.html</div>
           <div class="claim">Area or Tokyo Metropolitan Region).
@@ -263,9 +635,29 @@ According to the Tokyo Metropolitan</div>
 
   </div>
 <div class="section">
-    <h2>Dead Link Report (18 total)</h2>
+    <h2>Dead Link Report (229 total)</h2>
     <p style="color:var(--text-dim);margin-bottom:16px">Real domains, wrong URLs. The model tried but pointed to pages that don't exist.</p>
     <div class="dead-card">
+          <span class="model">claude-opus-4-6</span> —
+          <span class="url">https://royalsociety.org/news/2005/newton-einstein/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">claude-sonnet-4-6</span> —
+          <span class="url">https://www.worldatlas.com/articles/the-largest-countries-in-the-world-the-top-25.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">claude-sonnet-4-6</span> —
+          <span class="url">https://my.clevelandclinic.org/health/body/21048-bones</span>
+          <span style="color:var(--text-dim)">(HTTP 405)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">claude-sonnet-4-6</span> —
+          <span class="url">https://www.rcmp-grc.gc.ca/en/firearms</span>
+          <span style="color:var(--text-dim)">(HTTP ?)</span>
+        </div>
+<div class="dead-card">
           <span class="model">deepseek-chat-v3-0324</span> —
           <span class="url">https://www.fairwork.gov.au/pay/minimum-wages</span>
           <span style="color:var(--text-dim)">(HTTP ?)</span>
@@ -273,6 +665,341 @@ According to the Tokyo Metropolitan</div>
 <div class="dead-card">
           <span class="model">deepseek-chat-v3-0324</span> —
           <span class="url">https://www.bmas.de/EN/Topics/Wages/Minimum-Wage/minimum-wage.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">deepseek-chat-v3-0324</span> —
+          <span class="url">https://spaceplace.nasa.gov/milky-way/en/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">deepseek-chat-v3-0324</span> —
+          <span class="url">https://www.bell-labs.com/about/history/transistor/</span>
+          <span style="color:var(--text-dim)">(HTTP 410)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">deepseek-chat-v3-0324</span> —
+          <span class="url">https://my.clevelandclinic.org/health/body/25176-bones</span>
+          <span style="color:var(--text-dim)">(HTTP 405)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">deepseek-chat-v3-0324</span> —
+          <span class="url">https://cds.cern.ch/record/2863750</span>
+          <span style="color:var(--text-dim)">(HTTP 405)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">deepseek-chat-v3-0324</span> —
+          <span class="url">https://www.rcmp-grc.gc.ca/en/firearms</span>
+          <span style="color:var(--text-dim)">(HTTP ?)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">deepseek-chat-v3-0324</span> —
+          <span class="url">https://www.gov.uk/government/publications/firearms-licensing-law</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">deepseek-chat-v3-0324</span> —
+          <span class="url">https://www.iau.org/public/themes/measuring/</span>
+          <span style="color:var(--text-dim)">(HTTP ?)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">deepseek-chat-v3-0324</span> —
+          <span class="url">https://www.usgs.gov/special-topics/water-science-school/science/water-molecules-and-their-interactions</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">deepseek-chat-v3-0324</span> —
+          <span class="url">https://msrc-blog.microsoft.com/2022/04/26/why-rust-for-safe-systems-programming/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">deepseek-r1</span> —
+          <span class="url">https://www.toukei.metro.tokyo.lg.jp/sss/sss-index.htm</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">deepseek-r1</span> —
+          <span class="url">https://www.supremecourt.gov/opinions/slipopinions</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">deepseek-r1</span> —
+          <span class="url">https://www.rcmp-grc.gc.ca/en/firearms</span>
+          <span style="color:var(--text-dim)">(HTTP ?)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">deepseek-r1</span> —
+          <span class="url">https://www.gov.uk/government/publications/firearms-licensing-law</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">deepseek-r1</span> —
+          <span class="url">https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/colonial-settlement-1600-1763/colonial-america-1492-1763/</span>
+          <span style="color:var(--text-dim)">(HTTP ?)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">deepseek-r1</span> —
+          <span class="url">https://neighbourhood-enlargement.ec.europa.eu/enlargement-policy/overview_en</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">deepseek-r1-distill-llama-70b</span> —
+          <span class="url">https://doi.org/10.1016/j.physletb.2022.128751</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">deepseek-r1-distill-llama-70b</span> —
+          <span class="url">https://doi.org/10.1016/j.physletb.2022.127757</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">deepseek-r1-distill-llama-70b</span> —
+          <span class="url">https://www.nationalgeographic.org/encyclopedia/christopher-columbus/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemini-2.0-flash-001</span> —
+          <span class="url">https://population.un.org/wup/Download/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemini-2.0-flash-001</span> —
+          <span class="url">https://www.nasa.gov/mission_pages/spitzer/news/spitzer20060516.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemini-2.0-flash-001</span> —
+          <span class="url">https://www.bell-labs.com/who-we-are/our-history/transistor-centennial/</span>
+          <span style="color:var(--text-dim)">(HTTP 410)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemini-2.0-flash-001</span> —
+          <span class="url">https://goldbook.iupac.org/terms/b/B00698.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemini-2.0-flash-001</span> —
+          <span class="url">https://doi.org/10.1103/PhysRevLett.131.081802</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemini-2.0-flash-001</span> —
+          <span class="url">https://content.time.com/time/magazine/article/0</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemini-2.0-flash-001</span> —
+          <span class="url">https://www.nasa.gov/mission_pages/sunearth/news/Measuring_the_Sun.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemini-2.0-flash-001</span> —
+          <span class="url">https://www.usgs.gov/special-topics/water-science-school/science/water-molecule</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemini-2.0-flash-001</span> —
+          <span class="url">https://hyperphysics.phy-astr.gsu.edu/hbase/Chemical/boilpt.html</span>
+          <span style="color:var(--text-dim)">(HTTP ?)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemini-2.0-flash-001</span> —
+          <span class="url">https://doi.org/10.1038/s41567-023-02244-2</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemini-2.5-pro-preview-06-05</span> —
+          <span class="url">https://www.toukei.metro.tokyo.lg.jp/english/population/population_press/press_202404.html`</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemini-2.5-pro-preview-06-05</span> —
+          <span class="url">http://www.demographia.com/db-worldua.pdf`</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemini-2.5-pro-preview-06-05</span> —
+          <span class="url">https://taxfoundation.org/data/all/state/corporate-income-tax-rates-brackets-2024/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemini-2.5-pro-preview-06-05</span> —
+          <span class="url">https://doi.org/10.1103/PhysRevLett.130.191802</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemini-2.5-pro-preview-06-05</span> —
+          <span class="url">https://www.supremecourt.gov/opinions/23pdf/23-411_j4el.pdf</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemini-2.5-pro-preview-06-05</span> —
+          <span class="url">https://solarsystem.nasa.gov/planets/earth/in-depth/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemini-2.5-pro-preview-06-05</span> —
+          <span class="url">https://www.gunpolicy.org/</span>
+          <span style="color:var(--text-dim)">(HTTP 503)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemini-2.5-pro-preview-06-05</span> —
+          <span class="url">https://www.loc.gov/exhibits/1492-an-ongoing-voyage/introduction.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemini-2.5-pro-preview-06-05</span> —
+          <span class="url">https://www.vectara.com/llm-hallucination-leaderboard/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemma-2-27b-it</span> —
+          <span class="url">https://www.irs.gov/businesses/small-businesses-self-employed/corporate-tax-rates</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemma-2-27b-it</span> —
+          <span class="url">https://science.nasa.gov/astrophysics/focus-areas/what-is-the-milky-way-galaxy</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemma-2-27b-it</span> —
+          <span class="url">https://www.physik.uni-augsburg.de/annalen/historic/1905/1905_17_06/1905_17_06.pdf</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemma-2-27b-it</span> —
+          <span class="url">https://www.nist.gov/pml/weights-and-measures/metric-system/boiling-point-water</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemma-2-27b-it</span> —
+          <span class="url">https://www.genome.gov/about-genomics/fact-sheets/human-genome-project</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemma-2-27b-it</span> —
+          <span class="url">https://www.un.org/en/sg/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemma-2-27b-it</span> —
+          <span class="url">https://solarsystem.nasa.gov/facts/earth/in-depth/#:~:text=Earth%20is%20the%20third%20planet</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemma-2-27b-it</span> —
+          <span class="url">https://www.rcmp-grc.gc.ca/en</span>
+          <span style="color:var(--text-dim)">(HTTP ?)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemma-2-27b-it</span> —
+          <span class="url">https://www.dol.gov/agencies/whd/minimum-wage/overview</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemma-2-27b-it</span> —
+          <span class="url">https://solarsystem.nasa.gov/facts/earth/in-depth/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemma-2-27b-it</span> —
+          <span class="url">https://www.who.int/data/gho/publications/world-health-statistics-2020</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gemma-2-27b-it</span> —
+          <span class="url">https://www.worldathletics.org/records/mens/100m/outdoor</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-70b-instruct</span> —
+          <span class="url">https://www.metro.tokyo.lg.jp/tosei/hodo/press/2020/12/25/01.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-70b-instruct</span> —
+          <span class="url">https://www.irs.gov/businesses/small-businesses-self-employed/corporate-tax-rates</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-70b-instruct</span> —
+          <span class="url">https://www.bell-labs.com/about/history/transistor/</span>
+          <span style="color:var(--text-dim)">(HTTP 410)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-70b-instruct</span> —
+          <span class="url">https://www.nasa.gov/milky-way-galaxy</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-70b-instruct</span> —
+          <span class="url">https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Gaia/Gaia_s_Milky_Way</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-70b-instruct</span> —
+          <span class="url">https://orthoinfo.org/en/staying-healthy/how-many-bones-are-in-the-human-body/</span>
+          <span style="color:var(--text-dim)">(HTTP ?)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-70b-instruct</span> —
+          <span class="url">https://cds.cern.ch/record/2725431</span>
+          <span style="color:var(--text-dim)">(HTTP 405)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-70b-instruct</span> —
+          <span class="url">https://cds.cern.ch/record/2725432</span>
+          <span style="color:var(--text-dim)">(HTTP 405)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-70b-instruct</span> —
+          <span class="url">https://www.un.org/sg/en/content/sg/persons/ant%C3%B3nio-guterres</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-70b-instruct</span> —
+          <span class="url">https://www.federalreserve.gov/newsevents/pressreleases/monetary20230315a.htm</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-70b-instruct</span> —
+          <span class="url">https://americanindian.si.edu/explore/history/timeline/discovery.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-70b-instruct</span> —
+          <span class="url">http://insights.stackoverflow.com/survey/2022</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-70b-instruct</span> —
+          <span class="url">http://spectrum.ieee.org/computing/software/the-5-most-popular-programming-languages</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-70b-instruct</span> —
+          <span class="url">http://www.indeed.com/cmp/Indeed/blog/2022/02/top-5-programming-languages-in-demand</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-70b-instruct</span> —
+          <span class="url">http://www.fairwork.gov.au</span>
+          <span style="color:var(--text-dim)">(HTTP ?)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-70b-instruct</span> —
+          <span class="url">https://www.nist.gov/pml/weights-and-measures/metric-si-unit/boiling-point-water</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-70b-instruct</span> —
+          <span class="url">https://europa.eu/european-union/about-eu/countries_en.htm</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-70b-instruct</span> —
+          <span class="url">https://europa.eu/european-union/topics/enlargement_en.htm</span>
           <span style="color:var(--text-dim)">(HTTP 404)</span>
         </div>
 <div class="dead-card">
@@ -306,6 +1033,96 @@ According to the Tokyo Metropolitan</div>
           <span style="color:var(--text-dim)">(HTTP 404)</span>
         </div>
 <div class="dead-card">
+          <span class="model">llama-3.1-8b-instruct</span> —
+          <span class="url">https://www.metro.tokyo.lg.jp/english/about/outline/population.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-8b-instruct</span> —
+          <span class="url">https://iopscience.iop.org/article/10.3847/1538-4357/ab6d5e</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-8b-instruct</span> —
+          <span class="url">https://www.bell-labs.com/about/history/transistor/</span>
+          <span style="color:var(--text-dim)">(HTTP 410)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-8b-instruct</span> —
+          <span class="url">https://www.nist.gov/pml/weights-and-measures/physical-constants-of-pure-water</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-8b-instruct</span> —
+          <span class="url">https://iupac.org/fileadmin/user_upload/documents/periodic_table/Standard_Thermodynamic_Properties_of_Chemical_Substances.pdf</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-8b-instruct</span> —
+          <span class="url">https://unstats.un.org/unsd/cdb/cdb_browseTable.asp?sctId=1&amp;crtCl=1&amp;crtSctId=1&amp;crtSctNm=Area%20and%20Density</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-8b-instruct</span> —
+          <span class="url">https://cms.cern/physics/search?query=higgs+boson+mass</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-8b-instruct</span> —
+          <span class="url">https://atlas.cern/physics/search?query=higgs+boson+mass</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-8b-instruct</span> —
+          <span class="url">https://cern.ch/higgs-boson-mass</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-8b-instruct</span> —
+          <span class="url">https://orthoinfo.org/en/staying-healthy/bones/joints/bones-of-the-body/</span>
+          <span style="color:var(--text-dim)">(HTTP ?)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-8b-instruct</span> —
+          <span class="url">https://solarsystem.nasa.gov/sun/in-depth/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-8b-instruct</span> —
+          <span class="url">https://bjs.ojp.gov/index.cfm?ty=tp&amp;tid=11</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-8b-instruct</span> —
+          <span class="url">https://www.nra-ila.org/gun-laws/</span>
+          <span style="color:var(--text-dim)">(HTTP 405)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-8b-instruct</span> —
+          <span class="url">https://www.un.org/disarmament/arms-control-and-non-proliferation/firearms/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-8b-instruct</span> —
+          <span class="url">https://www.ialef.org/firearms-laws/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-8b-instruct</span> —
+          <span class="url">https://www.gunpolicy.org/firearms-laws</span>
+          <span style="color:var(--text-dim)">(HTTP 503)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-8b-instruct</span> —
+          <span class="url">https://www.iau.org/news/pressreleases/detail/iau0603/</span>
+          <span style="color:var(--text-dim)">(HTTP ?)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-8b-instruct</span> —
+          <span class="url">https://www.iaaf.org/news/century-series/iaaf-world-championships-berlin-2009</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
           <span class="model">llama-3.3-70b-instruct</span> —
           <span class="url">https://www.un.org/sg/en/content/secretary-general</span>
           <span style="color:var(--text-dim)">(HTTP 404)</span>
@@ -313,6 +1130,61 @@ According to the Tokyo Metropolitan</div>
 <div class="dead-card">
           <span class="model">llama-3.3-70b-instruct</span> —
           <span class="url">https://physics.nist.gov/cuu/Constants/physical.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.3-70b-instruct</span> —
+          <span class="url">https://www.bell-labs.com/alcatel-lucent/news/2007/transistor/</span>
+          <span style="color:var(--text-dim)">(HTTP 410)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.3-70b-instruct</span> —
+          <span class="url">https://iopscience.iop.org/article/10.3847/1538-3881/ab60c4</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.3-70b-instruct</span> —
+          <span class="url">https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Gaia/Gaia_s_stellar_tapestry</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.3-70b-instruct</span> —
+          <span class="url">https://www.who.int/healthinfo/global_burden_disease/GlobalHealthEstimates_2019.pdf</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.3-70b-instruct</span> —
+          <span class="url">https://orthoinfo.org/en/staying-healthy/bone-health-basics/</span>
+          <span style="color:var(--text-dim)">(HTTP ?)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.3-70b-instruct</span> —
+          <span class="url">https://www.un.org/sg/en/content/secretary-general/secretary-general-ant%C3%B3nio-guterres</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.3-70b-instruct</span> —
+          <span class="url">http://insights.stackoverflow.com/survey/2022</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.3-70b-instruct</span> —
+          <span class="url">https://cds.cern.ch/record/2814884</span>
+          <span style="color:var(--text-dim)">(HTTP 405)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.3-70b-instruct</span> —
+          <span class="url">https://www.nra-ila.org/gun-laws/</span>
+          <span style="color:var(--text-dim)">(HTTP 405)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.3-70b-instruct</span> —
+          <span class="url">https://physics.nist.gov/cuu/Constants/physical.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.3-70b-instruct</span> —
+          <span class="url">https://ec.europa.eu/info/european-union_en</span>
           <span style="color:var(--text-dim)">(HTTP 404)</span>
         </div>
 <div class="dead-card">
@@ -331,6 +1203,71 @@ According to the Tokyo Metropolitan</div>
           <span style="color:var(--text-dim)">(HTTP 503)</span>
         </div>
 <div class="dead-card">
+          <span class="model">llama-4-maverick</span> —
+          <span class="url">https://www.metro.tokyo.lg.jp/english/about/outline/data/population.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-4-maverick</span> —
+          <span class="url">https://www.stat.go.jp/english/data/kokusei/2020/poj/mokuji.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-4-maverick</span> —
+          <span class="url">https://www.esa.int/Science_Exploration/Space_Science/Herschel/The_Milky_Way_has_many_more_stars_than_first_thought</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-4-maverick</span> —
+          <span class="url">https://iopscience.iop.org/article/10.3847/1538-4357/acc578</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-4-maverick</span> —
+          <span class="url">https://link.springer.com/article/10.1140/epjc/s10052-019-6752-7</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-4-maverick</span> —
+          <span class="url">https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/weight-training/faq-20057921</span>
+          <span style="color:var(--text-dim)">(HTTP 200)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-4-maverick</span> —
+          <span class="url">https://www.kenhub.com/en/library/anatomy/the-skeletal-system</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-4-maverick</span> —
+          <span class="url">https://radiopaedia.org/articles/skeletal-system-1</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-4-maverick</span> —
+          <span class="url">https://www.un.org/sg/en/content/profiles-ant%C3%B3nio-guterres</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-4-maverick</span> —
+          <span class="url">https://www.imf.org/en/Publications/WEODatabase</span>
+          <span style="color:var(--text-dim)">(HTTP 200)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-4-maverick</span> —
+          <span class="url">https://www.who.int/news-room/fact-sheets/detail/world-health-statistics--life-expectancy</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-4-maverick</span> —
+          <span class="url">https://www.usgs.gov/special-topics/water-science-school/science/water-questions-chemistry#:~:text=Water%20is%20a%20Polar%20Molecule&amp;text=The%20chemical%20formula%20for</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-4-maverick</span> —
+          <span class="url">https://www.nature.com/natphys/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
           <span class="model">phi-4</span> —
           <span class="url">https://doi.org/10.1017/S0021875818000494</span>
           <span style="color:var(--text-dim)">(HTTP 404)</span>
@@ -346,14 +1283,504 @@ According to the Tokyo Metropolitan</div>
           <span style="color:var(--text-dim)">(HTTP 404)</span>
         </div>
 <div class="dead-card">
+          <span class="model">phi-4</span> —
+          <span class="url">https://www.nasa.gov/mission_pages/telescopes/missions/milkyway.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">phi-4</span> —
+          <span class="url">https://worldpopulationreview.com/country-rankings/japan</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">phi-4</span> —
+          <span class="url">https://www.worldatlas.com/articles/what-is-the-largest-country-in-the-world.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">phi-4</span> —
+          <span class="url">https://www.nih.gov/health-information/bones-skeletal-system</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">phi-4</span> —
+          <span class="url">https://www.ncsl.org/research/guns/firearms-laws</span>
+          <span style="color:var(--text-dim)">(HTTP 503)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">phi-4</span> —
+          <span class="url">https://www.nps.gov/lanm/learn/norse-exploration.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">phi-4</span> —
+          <span class="url">https://www.bipm.org/en/units/unit/meter/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">phi-4</span> —
+          <span class="url">https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/life-expectancy</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">phi-4</span> —
+          <span class="url">https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/wpp2019_summary_of_results.pdf</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">phi-4</span> —
+          <span class="url">https://www.usgs.gov/special-topic/water-science-school/science/water-you-water-and-you-water</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">phi-4</span> —
+          <span class="url">https://doi.org/10.1017/S0021875818000494</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">mixtral-8x22b-instruct</span> —
+          <span class="url">https://science.nasa.gov/universe/star-clusters/star-count/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">mixtral-8x22b-instruct</span> —
+          <span class="url">https://www.bell-labs.com/about/history/transistor/</span>
+          <span style="color:var(--text-dim)">(HTTP 410)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">mixtral-8x22b-instruct</span> —
+          <span class="url">https://www.who.int/publications/i/item/9789240193781</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">mixtral-8x22b-instruct</span> —
+          <span class="url">https://www.irs.gov/businesses/small-businesses-self-employed/corporate-income-tax-0</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">mixtral-8x22b-instruct</span> —
+          <span class="url">https://www.nature.com/articles/s41586-023-06203-0</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">mixtral-8x22b-instruct</span> —
+          <span class="url">https://cds.cern.ch/record/2813998</span>
+          <span style="color:var(--text-dim)">(HTTP 405)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">mixtral-8x22b-instruct</span> —
+          <span class="url">https://cds.cern.ch/record/2813997</span>
+          <span style="color:var(--text-dim)">(HTTP 405)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">mixtral-8x22b-instruct</span> —
+          <span class="url">https://www.merckmanuals.com/home/fundamentals/biology-of-the-human-body/human-body-systems</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">mixtral-8x22b-instruct</span> —
+          <span class="url">https://www.supremecourt.gov/opinions/22pdf/22-277_3f5a.pdf</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">mixtral-8x22b-instruct</span> —
+          <span class="url">https://www.supremecourt.gov/opinions/23pdf/22-664_8o6a.pdf</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">mixtral-8x22b-instruct</span> —
+          <span class="url">https://www.supremecourt.gov/opinions/23pdf/23-480_7lho.pdf</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">mixtral-8x22b-instruct</span> —
+          <span class="url">https://octoverse.github.com/2023/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">mixtral-8x22b-instruct</span> —
+          <span class="url">https://www.kaggle.com/c/kaggle-survey-2023</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">mixtral-8x22b-instruct</span> —
+          <span class="url">https://stackoverflow.blog/2023/06/05/the-most-popular-web-frameworks-among-developers/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">mixtral-8x22b-instruct</span> —
+          <span class="url">https://www.codingdojo.com/blog/best-programming-languages-to-learn</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">mixtral-8x22b-instruct</span> —
+          <span class="url">https://pypi.org/statistics/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">mixtral-8x22b-instruct</span> —
+          <span class="url">https://www.rcmp-grc.gc.ca/en/firearms</span>
+          <span style="color:var(--text-dim)">(HTTP ?)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">mixtral-8x22b-instruct</span> —
+          <span class="url">https://www.worldathletics.org/records/by-category/outdoor/100-metres/men/senior</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://www.metro.tokyo.lg.jp/english/PROFILE/POPULATION.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://www.bell-labs.com/about/history/transistor/</span>
+          <span style="color:var(--text-dim)">(HTTP 410)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://www.nasa.gov/milky-way-galaxy</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Gaia/Gaia_s_stellar_census</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://doi.org/10.3847/1538-4357/aaf715</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://www.irs.gov/newsroom/tax-cuts-and-jobs-act-provision-11021-corporate-tax-rate</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://ec.europa.eu/taxation_customs/sites/taxation/files/taxation_trends_report_2022.pdf</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://www.cra-arc.gc.ca/E/pub/tg/rc4164/README.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://www.who.int/healthinfo/global_burden_disease/GlobalHE2019.pdf</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://doi.org/10.1103/RevModPhys.90.045008</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://doi.org/10.1016/j.physletb.2020.02.003</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://cds.cern.ch/record/2759639</span>
+          <span style="color:var(--text-dim)">(HTTP 405)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://royalsociety.org/news/2016/most-influential-scientists/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://www.un.org/sg/en/content/secretary-general</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://orthoinfo.org/en/staying-healthy/your-bones/</span>
+          <span style="color:var(--text-dim)">(HTTP ?)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://fred.stlouisfed.org/series/FEDTAR</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://humanorigins.si.edu/evidence/genetics/first-americans</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://www.loc.gov/exhibits/columbus/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://www.nationalgeographic.org/article/who-really-discovered-america/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://www.ag.gov.au/CrimeAndCorruption/Firearms/Pages/default.aspx</span>
+          <span style="color:var(--text-dim)">(HTTP ?)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://www.rcmp-grc.gc.ca/en/firearms</span>
+          <span style="color:var(--text-dim)">(HTTP ?)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://www.gov.uk/firearms-licensing</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://spectrum.ieee.org/static/interactive-the-top-programming-languages</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://physics.nist.gov/cuu/pdf/2018_RMP.pdf</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://www.iau.org/news/pressreleases/detail/iau0603/</span>
+          <span style="color:var(--text-dim)">(HTTP ?)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://solarsystem.nasa.gov/our-solar-system/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://europa.eu/european-union/about-eu/member-countries_en</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://www.nist.gov/system/files/documents/pml/div684/codata2018-wisc.pdf</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://doi.org/**[INSERT</span>
+          <span style="color:var(--text-dim)">(HTTP 400)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">llama-3.1-nemotron-70b-instruct</span> —
+          <span class="url">https://www.govinfo.gov/content/pkg/USCODE-2011-title21/html/USCODE-2011-title21-chap13-subchapI-sec801.htm</span>
+          <span style="color:var(--text-dim)">(HTTP 200)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gpt-4o</span> —
+          <span class="url">https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Map%3A_Introductory_Chemistry_(Tro</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
           <span class="model">gpt-4o-mini</span> —
           <span class="url">https://www.nist.gov/pml/weights-and-measures/metric-si/si-units/speed-light</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gpt-4o-mini</span> —
+          <span class="url">https://www.nasa.gov/feature/how-many-stars-are-in-the-milky-way</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gpt-4o-mini</span> —
+          <span class="url">https://www.nist.gov/pml/walk-in-physics/speed-light</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">gpt-4o-mini</span> —
+          <span class="url">https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/life-expectancy</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">o4-mini</span> —
+          <span class="url">https://archive.org/details/einstein1905electrodynamik/page/n7</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">o4-mini</span> —
+          <span class="url">https://spaceplace.nasa.gov/milky-way/en/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">o4-mini</span> —
+          <span class="url">https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/global-health-estimates-leading-causes-of-death</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">o4-mini</span> —
+          <span class="url">https://www.cmegroup.com/trading/equity-index/us-index/e-mini-sandp500.html</span>
+          <span style="color:var(--text-dim)">(HTTP ?)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">o4-mini</span> —
+          <span class="url">https://ec.europa.eu/info/brexit_en</span>
           <span style="color:var(--text-dim)">(HTTP 404)</span>
         </div>
 <div class="dead-card">
           <span class="model">sonar-pro</span> —
           <span class="url">https://my.clevelandclinic.org/health/body/chromosomes</span>
           <span style="color:var(--text-dim)">(HTTP 405)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">sonar-pro</span> —
+          <span class="url">https://chem.libretexts.org/Bookshelves/Environmental_Chemistry/Green_Chemistry_and_the_Ten_Commandments_of_Sustainability_(Manahan</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">qwen-2.5-72b-instruct</span> —
+          <span class="url">https://www.nasa.gov/mission_pages/GLAST/science/how-many-stars.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">qwen-2.5-72b-instruct</span> —
+          <span class="url">https://www.worldatlas.com/articles/largest-countries-in-the-world.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">qwen-2.5-72b-instruct</span> —
+          <span class="url">https://royalsociety.org/news/2005/11/newton-beats-einstein-in-poll-of-scientists-and-public/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">qwen-2.5-72b-instruct</span> —
+          <span class="url">https://www.nist.gov/pml/weights-and-measures/si-units-speed-light</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">qwen-2.5-72b-instruct</span> —
+          <span class="url">https://www.who.int/data/gho/data/indicators/indicator-details/GHO/life-expectancy-at-birth-(years</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">qwen-2.5-7b-instruct</span> —
+          <span class="url">https://ui.adsabs.harvard.edu/abs/2018MNRAS.475.3998B/abstract</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">qwen-2.5-7b-instruct</span> —
+          <span class="url">https://www.niams.nih.gov/health-topics/osteoporosis-and-menopause</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">qwen-2.5-7b-instruct</span> —
+          <span class="url">https://www.un.org/en/sg/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">qwen-2.5-7b-instruct</span> —
+          <span class="url">https://solarsystem.nasa.gov/overview/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">qwen-2.5-7b-instruct</span> —
+          <span class="url">https://www.gov.uk/firearms-licensing</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">qwen-2.5-7b-instruct</span> —
+          <span class="url">https://www.nationalgeographic.org/encyclopedia/christsopher-columbus/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">qwen-2.5-7b-instruct</span> —
+          <span class="url">https://www.dol.gov/agencies/whd/minwage</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">qwen-2.5-7b-instruct</span> —
+          <span class="url">https://www.bipm.org/en/measurement-units/speed-of-light.html</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">qwen-2.5-7b-instruct</span> —
+          <span class="url">https://www.worldathletics.org/world-records/sprint-100-meters-mens#sprint-100-meters-mens-0-100-meters-mens-1</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">qwen-2.5-7b-instruct</span> —
+          <span class="url">https://www.who.int/data/health-data/database/country-profiles/en/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">qwen-2.5-7b-instruct</span> —
+          <span class="url">https://europa.eu/european-union/about-eu/member-states/en</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">grok-3</span> —
+          <span class="url">https://solarsystem.nasa.gov/planets/earth/in-depth/</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">grok-3</span> —
+          <span class="url">https://www.nationalgeographic.com/history/article/vikings-in-north-america</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">grok-3</span> —
+          <span class="url">https://www.britannica.com/science/water-chemical-compound</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">grok-3</span> —
+          <span class="url">https://www.who.int/data/gho/data/indicators/indicator-details/GHO/life-expectancy-at-birth-(years</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">grok-3-mini</span> —
+          <span class="url">https://www.un.org/en/about-us/secretary-general</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">grok-3-mini</span> —
+          <span class="url">https://link.springer.com/article/10.1140/epjc/s10052-022-11018-5</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">grok-3-mini</span> —
+          <span class="url">https://www.rcmp-grc.gc.ca/en/firearms</span>
+          <span style="color:var(--text-dim)">(HTTP ?)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">grok-3-mini</span> —
+          <span class="url">https://www.dol.gov/general/topic/wages/wageclaims</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">grok-3-mini</span> —
+          <span class="url">https://www.ilo.org/global/topics/wages/minimum-wages</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">grok-3-mini</span> —
+          <span class="url">https://www.worldathletics.org/records/all-records/sprints/100-metres/outdoor/men/senior</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">grok-3-mini</span> —
+          <span class="url">https://www.who.int/data/gho/data/indicators/indicator-details/GHO/GHE_Life_expectancy_at_birth_(years</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">grok-3-mini</span> —
+          <span class="url">https://european-union.europa.eu/principles-countries-history/countries/index_en</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
+        </div>
+<div class="dead-card">
+          <span class="model">grok-3-mini</span> —
+          <span class="url">https://doi.org/10.1038/s41567-023-XXXXX</span>
+          <span style="color:var(--text-dim)">(HTTP 404)</span>
         </div>
 
   </div>
@@ -383,7 +1810,7 @@ According to the Tokyo Metropolitan</div>
 <div class="footer">
   <p><strong>Little lAIrs</strong> v1.0 | Powered by <a href="https://github.com/AIIT-GLITCH/anchorforge">AnchorForge</a> Epistemic Benchmark</p>
   <p>AIIT Corp | Rhet Wike | Council Hill, Oklahoma</p>
-  <p>Generated: 2026-04-09 13:15:01 UTC</p>
+  <p>Generated: 2026-04-09 14:47:55 UTC</p>
   <p style="margin-top:8px">Every claim. Every source. Every URL. Verified.</p>
 </div>
 
