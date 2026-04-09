@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+.next/
+__pycache__/
+*.pyc
+.venv/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Data
+*.db
+*.sqlite
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
